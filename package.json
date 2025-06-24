@@ -1,0 +1,29 @@
+{
+  "name": "mini-message-board",
+  "version": "1.0.0",
+  "description": "Odin Project - Node.js - Mini-message-board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FukcThat/Mini-message-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FukcThat/Mini-message-board/issues"
+  },
+  "homepage": "https://github.com/FukcThat/Mini-message-board#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

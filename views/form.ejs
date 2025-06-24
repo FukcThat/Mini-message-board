@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Message</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <form method="POST" action="/new">
+      <h1>New Message</h1>
+
+      <label for="user">Your name:</label>
+      <input
+        type="text"
+        id="user"
+        name="userName"
+        required
+        placeholder="Gitten"
+      />
+
+      <label for="message">Your message:</label>
+      <input
+        type="text"
+        id="message"
+        name="messageText"
+        required
+        placeholder="Type your message here"
+      />
+
+      <button type="submit">Post Message</button>
+      <a href="/" style="display: block; text-align: center; margin-top: 1rem"
+        >← Back to messages</a
+      >
+    </form>
+  </body>
+</html>
